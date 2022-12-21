@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sub_cetegories",
+  "info": {
+    "singularName": "sub-cetegory",
+    "pluralName": "sub-cetegories",
+    "displayName": "SubCetegory"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

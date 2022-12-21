@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cetegories",
+  "info": {
+    "singularName": "cetegory",
+    "pluralName": "cetegories",
+    "displayName": "Cetegory",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "sub_cetegories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sub-cetegory.sub-cetegory"
+    }
+  }
+}
